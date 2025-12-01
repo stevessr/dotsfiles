@@ -1,0 +1,61 @@
+// 窗口相关快捷键
+binds {
+    // 窗口管理
+    "Alt+F4"{
+        close-window
+        // Windows 兼容风格
+    }
+    "Mod+Q" hotkey-overlay-title="关闭窗口" {
+        close-window
+    }
+    //窗口缩放
+    "Mod+Minus" hotkey-overlay-title="横向缩小窗口" {
+        set-column-width "-10%"
+    }
+    "Mod+Equal" hotkey-overlay-title="横向放大窗口" {
+        set-column-width "+10%"
+    }
+    "Mod+Shift+Minus" hotkey-overlay-title="纵向缩小窗口" {
+        set-window-height "-10%"
+    }
+    "Mod+Shift+Equal" hotkey-overlay-title="纵向放大窗口" {
+        set-window-height "+10%"
+    }
+    "Mod+F" hotkey-overlay-title="全屏窗口" {
+        fullscreen-window
+    }
+    "Mod+A" hotkey-overlay-title="悬浮切换" {
+        toggle-window-floating;
+    }
+    Mod+P hotkey-overlay-title="Notepad" {
+      spawn "dms" "ipc" "call" "notepad" "toggle";
+    }
+    //窗口位置管理
+    "Mod+Shift+Up" hotkey-overlay-title="上移窗口" {
+        move-window-to-workspace-up
+    }
+    "Mod+Shift+Down" hotkey-overlay-title="下移窗口" {
+        move-window-to-workspace-down
+    }
+    "Mod+Shift+Left" hotkey-overlay-title="左移窗口" {
+        move-column-left
+    }
+    "Mod+Shift+Right" hotkey-overlay-title="右移窗口" {
+        move-column-right
+    }
+
+    // 鼠标驱动的窗口管理
+    "Super+Shift+WheelScrollUp"{
+        move-column-left
+    }
+    "Super+Shift+WheelScrollDown"{
+        move-column-right
+    }
+    "Super+Shift+MouseForward"{
+        move-window-to-workspace-up
+    }
+    "Super+Shift+MouseBack"{
+        move-window-to-workspace-down
+    }
+
+}

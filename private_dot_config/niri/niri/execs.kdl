@@ -1,0 +1,25 @@
+//spawn-at-startup "foot"
+//spawn-at-startup "~/.config/niri/niri/scripts/start_geoclue_agent.sh"
+spawn-at-startup "fcitx5"
+spawn-at-startup "/usr/lib/pam_kwallet_init"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+spawn-at-startup "dbus-update-activation-environment --all"
+spawn-at-startup "sh" "-c" "sleep 1 && dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+spawn-at-startup "easyeffects --gapplication-service"
+spawn-at-startup "wl-paste --type text --watch cliphist store"
+spawn-at-startup "wl-paste --type image --watch cliphist store"
+spawn-at-startup "wl-clip-persist --clipboard regular"
+spawn-at-startup "sh" "-c" "export XCURSOR_THEME=Bibata-Modern-Classic && export XCURSOR_SIZE=24"
+// Required for clipboard history integration
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+
+// Recommended (must install polkit-mate before hand) for elevation prompts
+spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
+// This may be a different path on different distributions, the above is for the arch linux mate-polkit package
+spawn-at-startup "xwayland-satellite"
+// Or, if you built it by hand:
+// spawn-at-startup "~/path/to/code/target/release/xwayland-satellite"
+
+// Starts DankShell
+//spawn-at-startup "qs" "-c" "dms"
+spawn-at-startup "dms" "run"

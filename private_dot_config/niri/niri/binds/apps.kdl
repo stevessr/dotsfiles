@@ -1,0 +1,48 @@
+binds {
+    // 应用启动与管理
+    "Mod+Semicolon" hotkey-overlay-title="应用菜单" {
+        spawn "fuzzel"
+    }
+    "Mod+Period" hotkey-overlay-title="表情符号" {
+        spawn "~/.config/niri/niri/scripts/fuzzel-emoji.sh" "copy"
+    }
+    "Mod+Return" hotkey-overlay-title="鸭子" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "kitty yazi" "foot" "kitty -1" "wezterm" "konsole" "kgx" "uxterm" "xterm"
+    }
+    "Mod+T" hotkey-overlay-title="终端" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "kitty -1" "foot" "alacritty" "wezterm" "konsole" "kgx" "uxterm" "xterm"
+    }
+    "Ctrl+Alt+T" hotkey-overlay-title="终端" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "kitty -1" "foot" "alacritty" "wezterm" "konsole" "kgx" "uxterm" "xterm"
+    }
+    "Mod+E" hotkey-overlay-title="文件管理器" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "nautilus" "dolphin" "nemo" "thunar"
+    }
+    "Mod+W" hotkey-overlay-title="浏览器" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "microsoft-edge-stable" "google-chrome-stable" "zen-browser" "firefox" "brave" "chromium" "opera" "librewolf"
+    }
+    "Mod+C" hotkey-overlay-title="代码编辑器" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "code" "codium" "cursor" "zed" "kate" "gnome-text-editor" "emacs"
+    }
+    "Mod+Shift+W" hotkey-overlay-title="办公套件" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "wps" "onlyoffice-desktopeditors"
+    }
+    "Ctrl+Shift+Escape" hotkey-overlay-title="系统监视器" {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "gnome-system-monitor" "plasma-systemmonitor"
+    }
+    "Mod+Ctrl+N" hotkey-overlay-title="网络连接" {
+        spawn "sh" "-c" "nm-connection-editor || plasma-nm"
+    }
+    "Mod+Ctrl+B" hotkey-overlay-title="蓝牙设置" {
+        spawn "sh" "-c" "blueberry || bluedevil-wizard"
+    }
+    "Mod+Ctrl+A" hotkey-overlay-title="音频控制" {
+        spawn "sh" "-c" "pavucontrol-qt || pavucontrol"
+    }
+    "Mod+Ctrl+S" hotkey-overlay-title="系统设置" {
+        spawn "sh" "-c" "XDG_CURRENT_DESKTOP=gnome systemsettings || gnome-control-center"
+    }
+    "Mod+I" hotkey-overlay-title="系统设置" {
+        spawn "sh" "-c" "XDG_CURRENT_DESKTOP=gnome ~/.config/niri/niri/scripts/launch_first_available.sh 'systemsettings' 'gnome-control-center' 'better-control'"
+    }
+}

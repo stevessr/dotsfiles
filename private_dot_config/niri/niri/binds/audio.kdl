@@ -1,0 +1,45 @@
+binds {
+    // 音频与媒体控制
+    "Mod+Shift+M" hotkey-overlay-title="切换静音" allow-when-locked=true {
+        spawn "wpctl" "set-mute" "@DEFAULT_SINK@" "toggle"
+    }
+    "Alt+XF86AudioMute" hotkey-overlay-title="切换麦克风静音" allow-when-locked=true {
+        spawn "wpctl" "set-mute" "@DEFAULT_SOURCE@" "toggle"
+    }
+    "XF86AudioMute" hotkey-overlay-title="静音" allow-when-locked=true {
+        spawn "dms" "ipc" "call" "audio" "mute"
+    }
+    "XF86AudioMicMute" hotkey-overlay-title="麦克风静音" allow-when-locked=true {
+        spawn "dms" "ipc" "call" "audio" "micmute"
+    }
+    "XF86AudioRaiseVolume" hotkey-overlay-title="增加音量" allow-when-locked=true {
+        spawn "amixer" "set" "Master" "3%+" 
+    }
+    "XF86AudioLowerVolume" hotkey-overlay-title="降低音量" allow-when-locked=true {
+        spawn "amixer" "set" "Master" "3%-" 
+    }
+    "XF86AudioNext" hotkey-overlay-title="下一首" allow-when-locked=true {
+        spawn "playerctl" "next"
+    }
+    "XF86AudioPrev" hotkey-overlay-title="上一首" allow-when-locked=true {
+        spawn "playerctl" "previous"
+    }
+    "Mod+Shift+J" hotkey-overlay-title="下一首" allow-when-locked=true {
+        spawn "playerctl" "next"
+    }
+    "Mod+Shift+K" hotkey-overlay-title="上一首" allow-when-locked=true {
+        spawn "playerctl" "previous"
+    }
+    "Mod+Shift+P" hotkey-overlay-title="播放/暂停" allow-when-locked=true {
+        spawn "playerctl" "play-pause"
+    }
+    "XF86AudioPlay" hotkey-overlay-title="播放/暂停" allow-when-locked=true {
+        spawn "playerctl" "play-pause"
+    }
+    "XF86AudioPause" hotkey-overlay-title="播放/暂停" allow-when-locked=true {
+        spawn "playerctl" "play-pause"
+    }
+    "Ctrl+Mod+V" hotkey-overlay-title="音量控制"  {
+        spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "pavucontrol-qt" "pavucontrol"
+    }
+}

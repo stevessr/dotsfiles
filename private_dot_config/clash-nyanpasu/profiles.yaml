@@ -1,0 +1,9 @@
+# Profiles Config for Clash Nyanpasu
+
+current: []
+chain: []
+valid:
+- dns
+- unified-delay
+- tcp-concurrent
+items: []

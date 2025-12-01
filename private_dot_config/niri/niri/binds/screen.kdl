@@ -1,0 +1,24 @@
+binds {
+    // 截图与录屏
+    "Mod+Print" hotkey-overlay-title="区域截图" allow-when-locked=true {
+        spawn "sh" "-c" "grim -g \"$(slurp)\" - | wl-copy"
+    }
+    "Shift+Print" hotkey-overlay-title="OCR截图" allow-when-locked=true {
+        spawn "sh" "-c" "grim -g \"$(slurp)\" tmp.png && tesseract tmp.png - | wl-copy && rm tmp.png"
+    }
+    "Mod+Shift+C" hotkey-overlay-title="颜色拾取" {
+        spawn "hyprpicker" "-a"
+    }
+    "Print" hotkey-overlay-title="全屏截图" allow-when-locked=true {
+        spawn "sh" "-c" "grim - | wl-copy"
+    }
+    "Ctrl+Print" hotkey-overlay-title="全屏截图到文件" {
+        spawn "sh" "-c" "mkdir -p $(xdg-user-dir PICTURES)/Screenshots && grim $(xdg-user-dir PICTURES)/Screenshots/Screenshot_\"$(date '+%Y-%m-%d_%H.%M.%S')\".png"
+    }
+    "Mod+Alt+R" hotkey-overlay-title="区域录屏" {
+        spawn "sh" "-c" "mkdir -p \"$(xdg-user-dir PICTURES)/Screenshots\" && grim -g \"$(slurp)\" - | tee \"$(xdg-user-dir PICTURES)/Screenshots/Screenshot_$(date +'%Y-%m-%d_%H:%M:%S').png\" | wl-copy"
+    }
+    "Mod+Shift+Alt+R" hotkey-overlay-title="全屏录屏(带声音)" {
+        spawn "~/.config/niri/niri/scripts/record.sh" "--fullscreen-sound"
+    }
+}

@@ -1,0 +1,7 @@
+hotkey-overlay {
+    skip-at-startup
+    hide-not-bound //等待发布新版本
+}
+debug {
+    render-drm-device "/dev/dri/renderD129"
+}

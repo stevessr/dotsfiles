@@ -1,0 +1,10 @@
+// 快捷键
+include "binds/window.kdl"
+include "binds/audio.kdl"
+include "binds/focus.kdl"
+include "binds/extra.kdl"
+include "binds/screen.kdl"
+include "binds/dms.kdl"
+include "binds/apps.kdl"
+include "binds/manager.kdl"
+include "binds/internal.kdl"

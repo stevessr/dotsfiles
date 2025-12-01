@@ -1,0 +1,8 @@
+// Make workspaces four times smaller than normal in the overview.
+overview {
+    zoom 0.4
+    backdrop-color "#87CEEB"
+    workspace-shadow {
+        off
+    }
+}

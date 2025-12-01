@@ -1,0 +1,12 @@
+binds {
+    // 硬件控制
+    "XF86MonBrightnessUp" hotkey-overlay-title="增加亮度" allow-when-locked=true {
+        spawn "dms" "ipc" "call" "brightness" "increment" "5" ""
+    }
+    "XF86MonBrightnessDown" hotkey-overlay-title="降低亮度" allow-when-locked=true {
+        spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""
+    }
+    "Super+Shift+XF86TouchpadOff" hotkey-overlay-title="copliot"{
+        toggle-window-floating;
+    }
+}

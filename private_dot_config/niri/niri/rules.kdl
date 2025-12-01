@@ -1,0 +1,144 @@
+// ######## Window rules ########
+//先全局，方便覆盖
+window-rule {
+    // 将此规则应用于所有窗口 (因为没有 match 条件)
+
+    // 圆角
+    geometry-corner-radius 18.0
+    clip-to-geometry true
+    // 对，niri绘制s
+    draw-border-with-background false
+
+    // 新窗口默认不最大化
+    open-maximized false
+    // 新窗口默认平铺，而非浮动
+    //open-floating false
+
+    // 全局默认宽度设置为屏幕宽度的 80%
+    default-column-width { proportion 0.8; }
+    default-window-height {
+		proportion 1.0;
+	}
+}
+// 疯狂的悬浮匹配
+window-rule {
+	match app-id="(fcitx|kitty|wechat|QQ|sparkle|goland|rustover|clion|CLion|Open|blueberry|guifetch|pavucontrol|foot|Alacritty|fuzzel|pulseaudio|nm-connection-editor|plasma|kcm_|bluedevilwizard|Welcome|illogical-impulse|Zotero|freedesktop)"
+	open-floating true
+}
+window-rule {
+    match app-id="fcitx"
+    default-column-width {
+		proportion 0.1;
+	}
+    default-window-height {
+		proportion 0.1;
+	}
+}
+// 宽度0.6
+window-rule {
+	match app-id="^(systemsettings|systemsettings|QQ|wechat)$"
+	default-column-width {
+		proportion 0.6
+	}
+}
+//宽度0.5
+window-rule {
+    match title="(goland|rustover|clion|CLion|Open|Sparkle|kitty|blueberry|foot|Alacritty)"
+
+    default-column-width {
+		proportion 0.5;
+	}
+}
+// 宽度0.45
+window-rule {
+	match app-id="(^nm-connection-editor$|pavucontrol|Zotero)"
+	default-column-width {
+		proportion 0.45
+	}
+}
+//高度0.5
+window-rule {
+    match title="(goland|rustover|clion|CLion|Open|Sparkle|QQ|kitty|foot|Alacritty)"
+
+    // Half of the screen high.
+    default-window-height {
+		proportion 0.5;
+	}
+}
+// 编辑器弹窗
+window-rule {
+    match title="[新建|更改|编辑|打开]" app-id="clion"
+    default-window-height {
+		proportion 0.5;
+	}
+    default-column-width {
+		proportion 0.5;
+	}
+}
+// 微软浏览器
+window-rule {
+  match app-id="microsoft-edge" title=r#"^$"#
+  open-floating true
+}
+// vscode悬浮窗专享
+window-rule {
+    match app-id="code" title="^Visual Studio Code$"
+    open-floating true
+}
+// QQ专享
+window-rule {
+    match app-id="QQ" title="^QQ$"
+    default-column-width {
+        proportion 0.2;
+    }
+}
+window-rule {
+    match app-id="QQ"
+    exclude title="^QQ$"
+    default-column-width {
+        proportion 0.8;
+    }
+}
+window-rule {
+    match app-id="wechat"
+    exclude title="^微信$"
+    default-window-height {
+        proportion 0.6;
+    }
+}
+// telegram专享
+window-rule {
+  match app-id="org.telegram.desktop" title="Media viewer"
+  open-floating true
+    default-window-height {
+                proportion 0.5;
+        }
+    // 80% of the screen wide.
+    default-column-width {
+        proportion 0.5;
+    }
+}
+window-rule {
+  match app-id="org.telegram.desktop"
+  exclude title="Telegram"
+  open-floating true
+    default-window-height {
+                proportion 0.75;
+        }
+    // 80% of the screen wide.
+    default-column-width {
+                proportion 0.75;
+        }
+}
+window-rule {
+	match title="^[Pp]icture[-\\s]?[Ii]n[-\\s]?[Pp]icture.*$"
+	open-floating true
+	default-column-width {
+		fixed 400
+	}
+}
+//阻止quickshell一起移动
+layer-rule {
+    match namespace="^quickshell$"
+    place-within-backdrop true
+}

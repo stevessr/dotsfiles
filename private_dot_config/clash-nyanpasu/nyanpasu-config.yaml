@@ -1,0 +1,46 @@
+# Clash Nyanpasu Config
+
+app_singleton_port: null
+app_log_level: info
+language: zh-CN
+theme_mode: system
+traffic_graph: true
+enable_memory_usage: true
+lighten_animation_effects: false
+enable_tun_mode: true
+enable_service_mode: true
+enable_auto_launch: false
+enable_silent_start: false
+enable_system_proxy: false
+enable_proxy_guard: false
+system_proxy_bypass: null
+proxy_guard_interval: 30
+theme_color: null
+web_ui_list: null
+clash_core: mihomo-alpha
+hotkeys: null
+auto_close_connection: null
+break_when_proxy_change: all
+break_when_profile_change: true
+break_when_mode_change: true
+default_latency_test: null
+enable_clash_fields: true
+enable_builtin_enhanced: true
+proxy_layout_column: null
+auto_log_clean: null
+max_log_files: 7
+window_size_state:
+  width: 2796
+  height: 2198
+  x: 0
+  y: 0
+  maximized: false
+  fullscreen: false
+enable_random_port: false
+verge_mixed_port: 7897
+enable_auto_check_update: true
+clash_strategy: null
+clash_tray_selector: normal
+always_on_top: false
+tun_stack: null
+enable_tray_text: false

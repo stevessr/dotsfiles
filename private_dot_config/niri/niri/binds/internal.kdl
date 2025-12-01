@@ -1,0 +1,8 @@
+binds{
+    "Mod+Slash" hotkey-overlay-title="快捷键提示" {
+        show-hotkey-overlay
+    }
+    "Mod+Shift+F" hotkey-overlay-title="伪装全屏"{
+        toggle-windowed-fullscreen;
+    }
+}

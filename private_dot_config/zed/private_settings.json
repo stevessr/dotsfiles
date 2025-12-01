@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "oswe-vscode-prime"
+    }
+  },
+  "context_servers": {
+    "mcp-server-github": {
+      "enabled": true,
+      "settings": {}
+    },
+    "mcp-server-context7": {
+      "enabled": true,
+      "settings": {
+        "context7_api_key": ""
+      }
+    }
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent_servers": {
+    "Gemini": {
+      "command": "/usr/bin/gemini",
+      "args": [""],
+      "env": { "GOOGLE_CLOUD_PROJECT": "gen-lang-client-0169324814" }
+    },
+    "ccr": {
+      "command": "/usr/bin/ccr",
+      "args": ["code"]
+    },
+    "qwen": {
+      "command": "/usr/bin/qwen"
+    },
+    "codex": {
+      "command": "/usr/bin/codex"
+    },
+    "codebuddy": {
+      "command": "/usr/bin/codebuddy"
+    },
+    "iflow": {
+      "command": "/usr/bin/iflow"
+    }
+  },
+  "icon_theme": "Material Icon Theme",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Rosé Pine Dawn",
+    "dark": "One Dark"
+  }
+}

@@ -1,0 +1,27 @@
+// 动画什么的砍了也行
+animations {
+	window-open {
+		duration-ms 200
+		curve "ease-out-cubic"
+	}
+	window-close {
+		duration-ms 200
+		curve "ease-out-cubic"
+	}
+	workspace-switch {
+		duration-ms 150
+		curve "ease-out-cubic"
+	}
+    horizontal-view-movement {
+        duration-ms 150
+		curve "ease-out-cubic"
+    }
+    window-movement {
+        duration-ms 50
+		curve "ease-out-cubic"
+    }
+    window-resize{
+        duration-ms 300
+		curve "ease-out-expo"
+    }
+}

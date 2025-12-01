@@ -1,0 +1,25 @@
+binds {
+    "Mod+Space" hotkey-overlay-title="应用启动器" {
+        spawn "dms" "ipc" "call" "spotlight" "toggle"
+    }
+    "Mod+V" hotkey-overlay-title="剪贴板历史" {
+        spawn "dms" "ipc" "call" "clipboard" "toggle"
+    }
+    "Mod+M" hotkey-overlay-title="进程列表" {
+        spawn "dms" "ipc" "call" "processlist" "toggle"
+    }
+    Mod+X hotkey-overlay-title="电源菜单" {
+        spawn "dms" "ipc" "call" "powermenu" "toggle";
+    }
+    // 系统与会话控制
+    "Mod+Comma" hotkey-overlay-title="设置" {
+        spawn "dms" "ipc" "call" "settings" "toggle"
+    }
+    "Mod+Alt+L" hotkey-overlay-title="锁定屏幕" {
+        spawn "dms" "ipc" "call" "lock" "lock"
+    }
+    // Night mode toggle
+    Mod+Shift+N allow-when-locked=true {
+      spawn  "dms" "ipc" "call" "night" "toggle";
+    }
+}

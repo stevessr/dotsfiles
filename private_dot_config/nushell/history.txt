@@ -1,0 +1,7 @@
+ls
+owd
+pwd
+ls
+cd xv6-labs-2025/
+ls
+exit

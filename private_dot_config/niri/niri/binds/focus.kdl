@@ -1,0 +1,43 @@
+binds {
+    //焦点切换
+    "Mod+Page_Down"{
+        focus-workspace-down
+    }
+    "Mod+Page_Up"{
+        focus-workspace-up
+    }
+    "Mod+Shift+Page_Down"{
+        move-window-to-workspace-down
+    }
+    "Mod+Shift+Page_Up"{
+        move-window-to-workspace-up
+    }
+
+    // 鼠标滚轮 驱动的焦点变化
+    "Mod+MouseForward"{
+        focus-workspace-up
+    }
+    "Mod+MouseBack"{
+        focus-workspace-down
+    }
+    "Mod+WheelScrollUp" {
+        focus-column-left
+    }
+    "Mod+WheelScrollDown" {
+        focus-column-right
+    }
+
+    // Mod 键位驱动的焦点转移
+    "Mod+up" hotkey-overlay-title="切换到下方工作区"{
+        focus-workspace-up
+    }
+    "Mod+down" hotkey-overlay-title="切换到上方工作区"{
+        focus-workspace-down
+    }
+    "Mod+Left" hotkey-overlay-title="左移焦点" {
+        focus-column-left
+    }
+    "Mod+Right" hotkey-overlay-title="右移焦点" {
+        focus-column-right
+    }
+}

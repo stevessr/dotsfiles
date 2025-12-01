@@ -1,0 +1,14 @@
+binds {
+    "Ctrl+Mod+R" hotkey-overlay-title="重载Shell" {
+        spawn "sh" "-c" "killall ags agsv1 gjs ydotool qs quickshell dms; dms run &"
+    }
+    "Mod+L" hotkey-overlay-title="锁定屏幕" {
+        spawn "loginctl" "lock-session"
+    }
+    "Mod+Shift+L" hotkey-overlay-title="休眠" {
+        spawn "sh" "-c" "sleep 0.1 && systemctl suspend"
+    }
+    "Ctrl+Shift+Alt+Mod+Delete" hotkey-overlay-title="关机" {
+        spawn "systemctl" "poweroff"
+    }
+}

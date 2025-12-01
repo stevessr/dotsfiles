@@ -1,0 +1,29 @@
+layout {
+	gaps 4.0
+	center-focused-column "on-overflow" // "always" //焦点中间好
+	preset-column-widths {
+		proportion 0.33333
+		proportion 0.5
+		proportion 0.66667
+	}
+	default-column-width {
+		proportion 0.5
+	}
+	/*
+	focus-ring {
+		width 1.0
+		active-color "#0DB7D4"
+		inactive-color "#31313600"
+	}
+	*/
+	border {
+		width 1.0
+		active-color "#0DB7D4"
+		inactive-color "#31313600"
+	}
+	shadow {
+        on
+    }
+	background-color "transparent"
+	empty-workspace-above-first
+}
