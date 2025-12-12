@@ -25,21 +25,11 @@ if status is-interactive # Commands to run in interactive sessions can go here
     
 end
 
-set -gx PATH $PATH /home/steve/.cargo/bin
-set -gx PATH $PATH /home/steve/.local/bin
-alias yay 'paru'
-
-# Added by LM Studio CLI (lms)
-set -gx PATH $PATH /home/steve/.lmstudio/bin
-# End of LM Studio CLI section
-
-
-# Generated for envman. Do not edit.
-test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
-
 # pnpm
 set -gx PNPM_HOME "/home/steve/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+fnm env --use-on-cd --shell fish | source

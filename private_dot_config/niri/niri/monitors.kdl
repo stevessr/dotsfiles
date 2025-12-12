@@ -22,8 +22,8 @@ output "DP-4" {
 //        variable-refresh-rate on-demand=true
 //}
 output "IPS, Inc. (Intellectual Property Solutions, Inc.) HDMI Unknown"{
-    mode "1536x2048@60"
+	mode "1536x2048@60"
 	scale 1.5
-    variable-refresh-rate on-demand=true
-	//transform "90"
+	variable-refresh-rate on-demand=true
+	//transform "270"
 }

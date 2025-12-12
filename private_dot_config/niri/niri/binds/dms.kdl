@@ -1,5 +1,5 @@
 binds {
-    "Mod+Space" hotkey-overlay-title="应用启动器" {
+    "Mod+Semicolon" hotkey-overlay-title="应用启动器" {
         spawn "dms" "ipc" "call" "spotlight" "toggle"
     }
     "Mod+V" hotkey-overlay-title="剪贴板历史" {

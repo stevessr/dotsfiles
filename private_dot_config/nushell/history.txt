@@ -5,3 +5,14 @@ ls
 cd xv6-labs-2025/
 ls
 exit
+alias cc = claude --settings ~/.claude/settings.json
+cc
+cc --hep
+cc --help
+exit
+config nu
+config.nu
+config
+config env
+config
+config nu

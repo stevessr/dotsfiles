@@ -1,11 +1,8 @@
 binds {
     // 应用启动与管理
-    "Mod+Semicolon" hotkey-overlay-title="应用菜单" {
-        spawn "fuzzel"
-    }
-    "Mod+Period" hotkey-overlay-title="表情符号" {
-        spawn "~/.config/niri/niri/scripts/fuzzel-emoji.sh" "copy"
-    }
+    //"Mod+Semicolon" hotkey-overlay-title="应用菜单" {spawn "fuzzel"}
+    Mod+Space repeat=false { spawn "vicinae" "toggle"; }
+    //"Mod+Period" hotkey-overlay-title="表情符号" {spawn "~/.config/niri/niri/scripts/fuzzel-emoji.sh" "copy"}
     "Mod+Return" hotkey-overlay-title="鸭子" {
         spawn "~/.config/niri/niri/scripts/launch_first_available.sh" "kitty yazi" "foot" "kitty -1" "wezterm" "konsole" "kgx" "uxterm" "xterm"
     }
