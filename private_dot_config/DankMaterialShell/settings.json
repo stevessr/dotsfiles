@@ -227,6 +227,11 @@
   "notificationOverlayEnabled": true,
   "modalDarkenBackground": true,
   "lockScreenShowPowerActions": true,
+  "lockScreenShowSystemIcons": true,
+  "lockScreenShowTime": true,
+  "lockScreenShowDate": true,
+  "lockScreenShowProfileImage": true,
+  "lockScreenShowPasswordField": true,
   "enableFprint": false,
   "maxFprintTries": 3,
   "lockScreenActiveMonitor": "all",
@@ -265,6 +270,7 @@
   "customPowerActionHibernate": "",
   "customPowerActionReboot": "",
   "customPowerActionPowerOff": "",
+  "updaterHideWidget": false,
   "updaterUseCustomCommand": true,
   "updaterCustomCommand": "paru",
   "updaterTerminalAdditionalParams": "",
@@ -275,6 +281,8 @@
     ]
   },
   "showOnLastDisplay": {},
+  "niriOutputSettings": {},
+  "hyprlandOutputSettings": {},
   "barConfigs": [
     {
       "id": "default",
@@ -331,5 +339,5 @@
       "popupGapsManual": 4
     }
   ],
-  "configVersion": 2
+  "configVersion": 3
 }
