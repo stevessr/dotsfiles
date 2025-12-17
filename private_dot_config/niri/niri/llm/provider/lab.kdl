@@ -1,0 +1,8 @@
+environment{
+    ANTHROPIC_BASE_URL                  "http://lab:8080"
+    ANTHROPIC_AUTH_TOKEN                "sk-steve-neko"
+    ANTHROPIC_DEFAULT_OPUS_MODEL        "gemini-3-pro-preview"
+    ANTHROPIC_DEFAULT_SONNET_MODEL      "glm-4.6"
+    ANTHROPIC_DEFAULT_HAIKU_MODEL       "gemini-2.5-pro"
+    CLAUDE_CODE_SUBAGENT_MODEL		    "glm-4.6"
+}
