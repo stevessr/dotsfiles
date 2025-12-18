@@ -332,11 +332,12 @@
       "borderThickness": 1,
       "fontScale": 1,
       "autoHide": true,
-      "autoHideDelay": 250,
+      "autoHideDelay": 0,
       "openOnOverview": true,
       "visible": true,
       "popupGapsAuto": true,
-      "popupGapsManual": 4
+      "popupGapsManual": 4,
+      "widgetOutlineEnabled": true
     }
   ],
   "configVersion": 3
