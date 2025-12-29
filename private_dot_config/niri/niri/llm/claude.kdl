@@ -1,6 +1,7 @@
 environment{
-    CLAUDE_CODE_ENABLE_TELEMETRY	    "0"
+    CLAUDE_CODE_ENABLE_TELEMETRY	        "0"
     DISABLE_TELEMETRY			        "1"
     DISABLE_ERROR_REPORTING		        "1"
     CLAUDE_CODE_SHELL			        "/usr/bin/fish"
+    CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC    "1"
 }
