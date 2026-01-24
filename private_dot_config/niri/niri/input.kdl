@@ -19,7 +19,7 @@ input {
 		accel-profile "flat"
 	}
     touch {
-        map-to-output "HDMI-A-1"
+        map-to-output "DP-1"
     }
     //warp-mouse-to-focus mode="center-x-always"
     //warp-mouse-to-focus mode="center-xy"

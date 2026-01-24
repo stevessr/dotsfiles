@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xv6/syscall实验.md",
+                "file": "学业/微处理器系统结构/ＡＲＭ　寻址方式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "syscall实验"
+              "title": "ＡＲＭ　寻址方式"
             }
           }
         ]
@@ -169,19 +169,21 @@
   },
   "active": "c5bda54c98a0e026",
   "lastOpenFiles": [
+    "学业/未命名.base",
+    "学业/导师位置.md",
+    "学业/微处理器系统结构/ＡＲＭ　寻址方式.md",
+    "xv6/syscall实验.md",
+    "学业/微处理器系统结构",
     "xv6/页表实验.md",
     "xv6/第0章.md",
-    "xv6/syscall实验.md",
     "xv6/Windows上运行xv6.md",
     "xv6/啊 w(ﾟДﾟ)w 简介.md",
     "科研训练（二）.md",
-    "学业/导师位置.md",
     "机长.md",
     "HEIMDALL.md",
     "学业/选导师.md",
     "学业/大一下/LinnOS.md",
     "编程/C++/C++ 多线程.md",
-    "学业/未命名.base",
     "学业/74HC158.md",
     "编程/C++/C++ 库.md",
     "学业/大一下/未命名.md",
@@ -194,8 +196,6 @@
     "学业/转正式版需要资金统计.md",
     "编程/C++/C++ 模板.md",
     "template/paper.md",
-    "template/dairy.md",
-    "linux/wayvnc初试.md",
     "学业/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/cab.m",
     "数学/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/lsq.m",
     "学业/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/lsq.m",
@@ -203,7 +203,6 @@
     "数学/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/cab.m",
     "数学/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/slv.m",
     "学业/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/slv.m",
-    "数学/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/plu.m",
-    "学业/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/slu.m"
+    "数学/IntroductionToLinearAlgebra-Chinese-note/TeachingCode/plu.m"
   ]
 }

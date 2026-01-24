@@ -33,3 +33,6 @@ end
 # pnpm end
 
 fnm env --use-on-cd --shell fish | source
+
+# fastfetch
+

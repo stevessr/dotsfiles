@@ -7,9 +7,9 @@ output "Tianma Microelectronics Ltd. 0x2031 Unknown" {
 //	transform "90"
 }
 output "DP-1" {
-	mode "1920x1080@60"
-	position x=1920 y=0
-	scale 1.0
+	//mode "1920x1080@60"
+	//position x=1920 y=0
+	//scale 1.0
 }
 output "DP-4" {
 	mode "1920x1080@60"
@@ -27,3 +27,4 @@ output "IPS, Inc. (Intellectual Property Solutions, Inc.) HDMI Unknown"{
 	variable-refresh-rate on-demand=true
 	//transform "270"
 }
+

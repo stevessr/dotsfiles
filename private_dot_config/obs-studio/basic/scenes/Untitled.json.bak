@@ -45,7 +45,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -391,7 +391,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "5c9a86c6-42de-4fe3-b4c2-9117a48c9efc"
+                "RestoreToken": "c2d20c62-d1f1-48c7-acf8-7a62a0ba5df5"
             },
             "mixers": 0,
             "sync": 0,
@@ -417,7 +417,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "33f9f475-32b9-4083-92aa-fd35104008e9"
+                "RestoreToken": "45b98593-8859-4869-872c-6f0a2128d0b9"
             },
             "mixers": 0,
             "sync": 0,
@@ -446,9 +446,12 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -6,
+    "scaling_level": -8,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
         "scripts-tool": [],
         "output-timer": {
