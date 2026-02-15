@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "plugins": {
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-24T13:59:07.012Z",
+        "lastUpdated": "2025-12-24T13:59:07.012Z"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-01T16:07:36.690Z",
+        "lastUpdated": "2026-01-01T16:07:36.690Z"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/context7/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2026-01-30T00:51:50.102Z",
+        "lastUpdated": "2026-01-30T00:51:50.102Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-30T00:52:14.587Z",
+        "lastUpdated": "2026-01-30T00:52:14.587Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/frontend-design/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2026-02-07T01:57:53.427Z",
+        "lastUpdated": "2026-02-07T01:57:53.427Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14"
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/steve/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-07T01:58:17.033Z",
+        "lastUpdated": "2026-02-07T01:58:17.033Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14"
+      }
+    ]
+  }
+}
