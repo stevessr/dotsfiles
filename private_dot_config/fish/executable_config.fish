@@ -36,3 +36,6 @@ fnm env --use-on-cd --shell fish | source
 
 # fastfetch
 
+
+
+string match -q "$TERM_PROGRAM" "kiro" and . (kiro --locate-shell-integration-path fish)

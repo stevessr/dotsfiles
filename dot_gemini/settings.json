@@ -11,7 +11,8 @@
   "general": {
     "previewFeatures": true,
     "disableAutoUpdate": true,
-    "enablePromptCompletion": true
+    "enablePromptCompletion": true,
+    "enableAutoUpdate": false
   },
   "output": {
     "format": "text"
@@ -23,7 +24,9 @@
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["chrome-devtools-mcp@latest"]
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ]
     },
     "context7": {
       "httpUrl": "https://mcp.context7.com/mcp",

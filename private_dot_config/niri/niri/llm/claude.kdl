@@ -4,4 +4,5 @@ environment{
     DISABLE_ERROR_REPORTING		        "1"
     CLAUDE_CODE_SHELL			        "/usr/bin/fish"
     CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC    "1"
+    CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS      "1"
 }
