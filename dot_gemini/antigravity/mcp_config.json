@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "context7": {
+            "serverUrl": "https://mcp.context7.com/mcp",
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        },
+        "deepwiki": {
+            "serverUrl": "https://mcp.deepwiki.com/sse",
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        }
+    }
+}

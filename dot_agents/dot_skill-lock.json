@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "skills": {
+    "vue-best-practices": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-best-practices/SKILL.md",
+      "skillFolderHash": "85b98cd468e31d55c6ed1998ddf95bb140e04290",
+      "installedAt": "2026-02-01T00:56:58.811Z",
+      "updatedAt": "2026-02-01T00:56:58.811Z"
+    },
+    "vue-development-guides": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-development-guides/SKILL.md",
+      "skillFolderHash": "4d139abf62865755614a1d60860b384aeecedcff",
+      "installedAt": "2026-02-01T00:56:58.878Z",
+      "updatedAt": "2026-02-01T00:56:58.878Z"
+    },
+    "vue-jsx-best-practices": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-jsx-best-practices/SKILL.md",
+      "skillFolderHash": "b6bbe69dd1507c8770ae7e4cdab976cba929ae48",
+      "installedAt": "2026-02-01T00:56:58.953Z",
+      "updatedAt": "2026-02-01T00:56:58.953Z"
+    },
+    "vue-options-api-best-practices": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-options-api-best-practices/SKILL.md",
+      "skillFolderHash": "268398f0ad60f5839e0102cad86e962e4a28630c",
+      "installedAt": "2026-02-01T00:56:59.020Z",
+      "updatedAt": "2026-02-01T00:56:59.020Z"
+    },
+    "vue-router-best-practices": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-router-best-practices/SKILL.md",
+      "skillFolderHash": "0a68887518bd72091266aa97352e19347bf00666",
+      "installedAt": "2026-02-01T00:56:59.087Z",
+      "updatedAt": "2026-02-01T00:56:59.087Z"
+    },
+    "vue-pinia-best-practices": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/vue-pinia-best-practices/SKILL.md",
+      "skillFolderHash": "4c331972ffdfb75666dc449fb3a4c18c37d53693",
+      "installedAt": "2026-02-01T00:56:59.158Z",
+      "updatedAt": "2026-02-01T00:56:59.158Z"
+    },
+    "create-adaptable-composable": {
+      "source": "vuejs-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vuejs-ai/skills.git",
+      "skillPath": "skills/create-adaptable-composable/SKILL.md",
+      "skillFolderHash": "afc95f7821ee98e987ffb5d78c9d45ab7a2708ff",
+      "installedAt": "2026-02-01T00:56:59.225Z",
+      "updatedAt": "2026-02-01T00:56:59.225Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "c2f31172b6f256272305a5e6e7228b258446899f",
+      "installedAt": "2026-02-01T00:57:05.716Z",
+      "updatedAt": "2026-02-01T00:57:05.716Z"
+    },
+    "vite": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/antfu/skills.git",
+      "skillPath": "skills/vite/SKILL.md",
+      "skillFolderHash": "dc30d333febf1f0925e7f89ef0e9c8c624a7da67",
+      "installedAt": "2026-02-01T00:57:39.121Z",
+      "updatedAt": "2026-02-01T00:57:39.121Z"
+    },
+    "crawl": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily/crawl/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-01T09:28:56.582Z",
+      "updatedAt": "2026-02-01T09:28:56.582Z"
+    },
+    "extract": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily/extract/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-01T09:28:56.716Z",
+      "updatedAt": "2026-02-01T09:28:56.716Z"
+    },
+    "research": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily/research/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-01T09:28:56.839Z",
+      "updatedAt": "2026-02-01T09:28:56.839Z"
+    },
+    "search": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily/search/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-01T09:28:57.262Z",
+      "updatedAt": "2026-02-01T09:28:57.262Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "iflow-cli",
+    "qwen-code",
+    "github-copilot",
+    "gemini-cli",
+    "codex",
+    "antigravity",
+    "augment",
+    "claude-code",
+    "roo"
+  ]
+}

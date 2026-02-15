@@ -1,0 +1,2153 @@
+{
+  "numStartups": 303,
+  "installMethod": "native",
+  "autoUpdates": false,
+  "hasSeenTasksHint": true,
+  "tipsHistory": {
+    "new-user-warmup": 7,
+    "plan-mode-for-complex-tasks": 296,
+    "terminal-setup": 299,
+    "memory-command": 290,
+    "theme-command": 282,
+    "status-line": 26,
+    "stickers-command": 242,
+    "prompt-queue": 13,
+    "enter-to-steer-in-relatime": 287,
+    "todo-list": 287,
+    "# for memory": 60,
+    "install-github-app": 300,
+    "drag-and-drop-images": 291,
+    "double-esc-code-restore": 295,
+    "continue": 295,
+    "shift-tab": 295,
+    "image-paste": 288,
+    "tab-toggle-thinking": 34,
+    "ultrathink-keyword": 231,
+    "frontend-design-plugin": 287,
+    "ide-upsell-external-terminal": 288,
+    "shift-enter-setup": 276,
+    "custom-agents": 298,
+    "permissions": 291,
+    "custom-commands": 298,
+    "rename-conversation": 294,
+    "config-thinking-mode": 221,
+    "git-worktrees": 299,
+    "web-app": 298,
+    "mobile-app": 299,
+    "install-slack-app": 295,
+    "btw-side-question": 215,
+    "default-permission-mode-config": 299,
+    "agent-flag": 298
+  },
+  "promptQueueUseCount": 622,
+  "autoConnectIde": true,
+  "cachedStatsigGates": {
+    "tengu_log_1p_events": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false,
+    "tengu_enable_versioned_plugins": false,
+    "tengu_web_tasks": false,
+    "code_slack_app_install_banner": false,
+    "tengu_sumi": false,
+    "tengu_react_vulnerability_warning": false,
+    "tengu_thinkback": false,
+    "tengu_vscode_review_upsell": false,
+    "tengu_clawd_openfire": false,
+    "tengu_ant_attribution_header_new": false,
+    "tengu_prompt_suggestion": false,
+    "tengu_c4w_usage_limit_notifications_enabled": false,
+    "tengu_year_end_2025_campaign_promo": false,
+    "tengu_streaming_tool_execution2": false,
+    "tengu_session_memory": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": "dim"
+    }
+  },
+  "cachedGrowthBookFeatures": {
+    "tengu_mcp_tool_search": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false,
+    "tengu_thinkback": false,
+    "tengu_sumi": false,
+    "tengu_c4w_usage_limit_notifications_enabled": false,
+    "tengu_react_vulnerability_warning": false,
+    "tengu_ant_attribution_header_new": false
+  },
+  "hasSeenStashHint": true,
+  "userID": "cf3218e0405038e686587916659922412269d19890a6fd41a2c766bbfc4a9588",
+  "firstStartTime": "2025-12-05T14:36:40.483Z",
+  "sonnet45MigrationComplete": true,
+  "opus45MigrationComplete": true,
+  "changelogLastFetched": 1766466537223,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.0.59",
+  "projects": {
+    "/home/steve/文档/test/bot": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "worker-modular.js",
+        "worker.js",
+        "app-js-content.js",
+        "QuestionCommand.js",
+        "quiz-system.js"
+      ],
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 2.5158395,
+      "lastAPIDuration": 605941,
+      "lastToolDuration": 1178,
+      "lastDuration": 10420362,
+      "lastLinesAdded": 512,
+      "lastLinesRemoved": 85,
+      "lastTotalInputTokens": 194911,
+      "lastTotalOutputTokens": 29603,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 1867695,
+      "lastSessionId": "821e0520-8f2e-4016-8886-f5aec9a4f2de",
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1767339953296,
+      "lastAPIDurationWithoutRetries": 605886,
+      "lastModelUsage": {
+        "gemini-3-flash-preview": {
+          "inputTokens": 3878,
+          "outputTokens": 1372,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.032214
+        },
+        "gemini-3-pro-preview": {
+          "inputTokens": 12361,
+          "outputTokens": 8644,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.16674299999999997
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 178672,
+          "outputTokens": 19587,
+          "cacheReadInputTokens": 1867695,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 2.3168825
+        }
+      }
+    },
+    "/home/steve/文档/bug-v3": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "emojiStore.ts",
+        "Options.vue",
+        "useOptions.ts",
+        "injector.ts",
+        "newStorage.ts"
+      ],
+      "exampleFilesGeneratedAt": 1770291458686,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 59.37474250000002,
+      "lastAPIDuration": 12977215,
+      "lastAPIDurationWithoutRetries": 4566592,
+      "lastToolDuration": 1833582,
+      "lastDuration": 81356240,
+      "lastLinesAdded": 6420,
+      "lastLinesRemoved": 533,
+      "lastTotalInputTokens": 11092626,
+      "lastTotalOutputTokens": 239706,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 17542641,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 4422762,
+          "outputTokens": 98980,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 14.752986000000003
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 6195907,
+          "outputTokens": 133814,
+          "cacheReadInputTokens": 17542641,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 43.0962055
+        },
+        "gemini-3-flash-preview": {
+          "inputTokens": 473957,
+          "outputTokens": 6912,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 1.5255509999999999
+        }
+      },
+      "lastSessionId": "10fdd1ab-85f1-497b-9268-2d6554d5ea65",
+      "lastFpsAverage": 3.06,
+      "lastFpsLow1Pct": 18.73,
+      "disabledMcpServers": [
+        "context7"
+      ]
+    },
+    "/home/steve/文档/stratovirt": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "lib.rs",
+        "standard.rs",
+        "xhci_controller.rs",
+        "net.rs",
+        "mod.rs"
+      ],
+      "exampleFilesGeneratedAt": 1765022601383,
+      "hasCompletedProjectOnboarding": true
+    },
+    "/home/steve/xv6/xv6-riscv": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "vm.c",
+        "proc.c",
+        "fs.c",
+        "exec.c",
+        "trap.c"
+      ],
+      "exampleFilesGeneratedAt": 1765029626136,
+      "lastCost": 1.091493,
+      "lastAPIDuration": 1156146,
+      "lastToolDuration": 631,
+      "lastDuration": 2487695,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 329386,
+      "lastTotalOutputTokens": 6889,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastSessionId": "6f50e089-b95c-43c8-84b9-9096c27ef722"
+    },
+    "/home/steve": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "context7": {
+          "type": "http",
+          "url": "https://mcp.context7.com/mcp"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 35571535,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastSessionId": "b8a17d86-382c-491c-8ce6-916bb9fada3f",
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastAPIDurationWithoutRetries": 0,
+      "lastModelUsage": {},
+      "lastFpsAverage": 0,
+      "lastFpsLow1Pct": 30.68,
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 89,
+        "frame_duration_ms_min": 0.03143400000408292,
+        "frame_duration_ms_max": 32.59929000000011,
+        "frame_duration_ms_avg": 0.8134257528269004,
+        "frame_duration_ms_p50": 0.12118100002408028,
+        "frame_duration_ms_p95": 2.7054776000011715,
+        "frame_duration_ms_p99": 12.7191325600009
+      }
+    },
+    "/home/steve/下载/csv": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "disabledMcpServers": [],
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 155151,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "c0a74e42-0150-4bad-bf5a-439bda10ca4c"
+    },
+    "/home/steve/文档/AstrBot": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "context7": {
+          "type": "http",
+          "url": "https://mcp.context7.com/mcp"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "skills.py",
+        "SkillsSection.vue",
+        "stage.py",
+        "tg_adapter.py",
+        "tg_event.py"
+      ],
+      "exampleFilesGeneratedAt": 1770649930391,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 84.31907450000001,
+      "lastAPIDuration": 17043296,
+      "lastToolDuration": 341007,
+      "lastDuration": 39479724,
+      "lastLinesAdded": 979,
+      "lastLinesRemoved": 451,
+      "lastTotalInputTokens": 23177426,
+      "lastTotalOutputTokens": 211318,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 4269733,
+      "lastSessionId": "54f3adc3-b3fc-4120-9af6-1f202159f77f",
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastAPIDurationWithoutRetries": 6554730,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 18674478,
+          "outputTokens": 154353,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 58.338729
+        },
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 3888295,
+          "outputTokens": 42724,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 20.509575000000005
+        },
+        "claude-opus-4-6": {
+          "inputTokens": 223076,
+          "outputTokens": 599,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 1.130355
+        },
+        "claude-opus-4-6-thinking[1m]": {
+          "inputTokens": 351319,
+          "outputTokens": 12355,
+          "cacheReadInputTokens": 4269733,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 4.2003365
+        },
+        "gemini-3-flash-preview": {
+          "inputTokens": 40258,
+          "outputTokens": 1287,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.140079
+        }
+      },
+      "lastFpsAverage": 5.16,
+      "lastFpsLow1Pct": 92.9,
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 1210,
+        "frame_duration_ms_min": 0.024976000015158206,
+        "frame_duration_ms_max": 238.77153100000032,
+        "frame_duration_ms_avg": 2.0324277396695023,
+        "frame_duration_ms_p50": 0.9594640000141226,
+        "frame_duration_ms_p95": 3.8742480500000935,
+        "frame_duration_ms_p99": 10.74378091000476
+      }
+    },
+    "/home/steve/demo": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastCost": 0.5651999999999999,
+      "lastAPIDuration": 140198,
+      "lastToolDuration": 3551,
+      "lastDuration": 160904,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 170185,
+      "lastTotalOutputTokens": 3643,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastSessionId": "56e8e9fe-a372-4ad3-8621-ea29d93e7083"
+    },
+    "/home/steve/xv6-labs-2025": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "Makefile",
+        "syscall.c",
+        "sysproc.c",
+        "proc.c",
+        "user.h"
+      ],
+      "exampleFilesGeneratedAt": 1765271941016
+    },
+    "/home/steve/codeforce": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 42345,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "b646ef96-1868-45a0-ba32-a65ec45302c9"
+    },
+    "/home/steve/文档/Sub-Store": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "index.js",
+        "sync.js",
+        "download.js",
+        "surge.js",
+        "stash.js"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1765672413108,
+      "lastCost": 9.867128999999997,
+      "lastAPIDuration": 12648739,
+      "lastAPIDurationWithoutRetries": 12648492,
+      "lastToolDuration": 219982,
+      "lastDuration": 44180434,
+      "lastLinesAdded": 298,
+      "lastLinesRemoved": 114,
+      "lastTotalInputTokens": 2099018,
+      "lastTotalOutputTokens": 238005,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "glm-4.6": {
+          "inputTokens": 1931457,
+          "outputTokens": 18273,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 6.068466000000001
+        },
+        "gemini-2.5-pro": {
+          "inputTokens": 167561,
+          "outputTokens": 219732,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 3.7986630000000012
+        }
+      },
+      "lastSessionId": "fc32f8f5-eabe-40fa-ba24-6be9fb2fd1af"
+    },
+    "/home/steve/文档/Sub-Store-Front-End": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "SubEditor.vue",
+        "SubListItem.vue",
+        "App.vue",
+        "index.ts",
+        "subs.ts"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1765758736494,
+      "lastCost": 4.197297000000001,
+      "lastAPIDuration": 497515,
+      "lastAPIDurationWithoutRetries": 497470,
+      "lastToolDuration": 17956,
+      "lastDuration": 976152,
+      "lastLinesAdded": 2169,
+      "lastLinesRemoved": 14,
+      "lastTotalInputTokens": 1261234,
+      "lastTotalOutputTokens": 27573,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "glm-4.6": {
+          "inputTokens": 1258241,
+          "outputTokens": 23010,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 4.119873
+        },
+        "gemini-2.5-pro": {
+          "inputTokens": 2993,
+          "outputTokens": 4563,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.07742399999999999
+        }
+      },
+      "lastSessionId": "d8c58ce8-7393-46c0-8b54-3185c75e2fe4"
+    },
+    "/home/steve/文档/科研": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "tavily": {
+          "type": "sse",
+          "url": "https://mcp.tavily.com/mcp/?tavilyApiKey=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"
+        },
+        "tavily_Expert": {
+          "type": "sse",
+          "url": "https://tavily.api.tadata.com/mcp/tavily/venture-vine-shave-8smxc"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "thesis.tex",
+        "thesis.pdf",
+        "thesis.aux",
+        "thesis.log",
+        "thesis.synctex.gz"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769939304704,
+      "lastCost": 4.879177,
+      "lastAPIDuration": 2103137,
+      "lastAPIDurationWithoutRetries": 1086068,
+      "lastToolDuration": 40392,
+      "lastDuration": 24527050,
+      "lastLinesAdded": 175,
+      "lastLinesRemoved": 51,
+      "lastTotalInputTokens": 1435254,
+      "lastTotalOutputTokens": 34437,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 1408994,
+          "outputTokens": 34003,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 4.737027
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 26260,
+          "outputTokens": 434,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.14215
+        }
+      },
+      "lastSessionId": "f4299fd4-0021-4314-9d47-473276020b9f",
+      "hasCompletedProjectOnboarding": true,
+      "lastFpsAverage": 1.97,
+      "lastFpsLow1Pct": 25.06,
+      "disabledMcpServers": [
+        "context7"
+      ]
+    },
+    "/home/steve/文档/ADBKeyBoard": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "README.md",
+        "AdbIME.java",
+        "android.yml",
+        "build.gradle",
+        "AndroidManifest.xml"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1765796341682,
+      "lastCost": 4.330499999999997,
+      "lastAPIDuration": 1181479,
+      "lastAPIDurationWithoutRetries": 1181384,
+      "lastToolDuration": 533444,
+      "lastDuration": 7824773,
+      "lastLinesAdded": 8,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 1232740,
+      "lastTotalOutputTokens": 42152,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "glm-4.6": {
+          "inputTokens": 1232740,
+          "outputTokens": 42152,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 4.330499999999997
+        }
+      },
+      "lastSessionId": "20bb71df-1771-4ce3-8460-cae1824b2c37"
+    },
+    "/home/steve/Open-AutoGLM": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "main.py",
+        "handler.py",
+        "client.py",
+        "agent.py",
+        "apps.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1765798476665,
+      "lastCost": 0.787854,
+      "lastAPIDuration": 301994,
+      "lastAPIDurationWithoutRetries": 301982,
+      "lastToolDuration": 741,
+      "lastDuration": 373856,
+      "lastLinesAdded": 873,
+      "lastLinesRemoved": 13,
+      "lastTotalInputTokens": 204168,
+      "lastTotalOutputTokens": 11690,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "glm-4.6": {
+          "inputTokens": 204168,
+          "outputTokens": 11690,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.787854
+        }
+      },
+      "lastSessionId": "81521faf-6b06-406e-b649-628ccf989b04"
+    },
+    "/home/steve/数据结构": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "main.rs",
+        "def.rs",
+        "tui.rs",
+        "Cargo.toml",
+        "Cargo.lock"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 24.153971500000008,
+      "lastAPIDuration": 2802516,
+      "lastAPIDurationWithoutRetries": 2801273,
+      "lastToolDuration": 35926,
+      "lastDuration": 15808602,
+      "lastLinesAdded": 1861,
+      "lastLinesRemoved": 568,
+      "lastTotalInputTokens": 2378711,
+      "lastTotalOutputTokens": 127009,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 19068555,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 33948,
+          "outputTokens": 38119,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.6736289999999997
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 2344763,
+          "outputTokens": 88890,
+          "cacheReadInputTokens": 19068555,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 23.48034250000001
+        }
+      },
+      "lastSessionId": "6fe0a0a0-013b-466c-ae9e-170c360f6e1a",
+      "exampleFilesGeneratedAt": 1766644756043
+    },
+    "/home/steve/文档/snow-cli": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "ChatScreen.tsx",
+        "systemPrompt.ts",
+        "ChatInput.tsx",
+        "filesystem.ts",
+        "useConversation.ts"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1765982254858,
+      "lastCost": 0.0005430000000000001,
+      "lastAPIDuration": 5063,
+      "lastAPIDurationWithoutRetries": 5062,
+      "lastToolDuration": 0,
+      "lastDuration": 3106528,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 106,
+      "lastTotalOutputTokens": 15,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-2.5-pro": {
+          "inputTokens": 106,
+          "outputTokens": 15,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.0005430000000000001
+        }
+      },
+      "lastSessionId": "00594491-e534-4470-bc10-75a546dbc5f9"
+    },
+    "/home/steve/文档/open-webui": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "VideoImage.svelte",
+        "Background.svelte",
+        "ModelEditor.svelte",
+        "MessageInput.svelte",
+        "CodeBlock.svelte"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0.7784555000000003,
+      "lastAPIDuration": 576740,
+      "lastAPIDurationWithoutRetries": 199121,
+      "lastToolDuration": 49155,
+      "lastDuration": 389632,
+      "lastLinesAdded": 3,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 119837,
+      "lastTotalOutputTokens": 4958,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 182541,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 111282,
+          "outputTokens": 3074,
+          "cacheReadInputTokens": 182541,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.7245305000000001
+        },
+        "gemini-3-pro-preview": {
+          "inputTokens": 8555,
+          "outputTokens": 1884,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.053925
+        }
+      },
+      "lastSessionId": "4eeeb40f-a71c-4145-8af0-996f952a7075",
+      "exampleFilesGeneratedAt": 1766292487588
+    },
+    "/home/steve/文档/IdleLife": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "game_engine.py",
+        "character.py",
+        "combat.py",
+        "events.py",
+        "relationships.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1766399637191,
+      "lastCost": 0.02637,
+      "lastAPIDuration": 17434,
+      "lastAPIDurationWithoutRetries": 17432,
+      "lastToolDuration": 0,
+      "lastDuration": 154882,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 2175,
+      "lastTotalOutputTokens": 1323,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "glm-4.6": {
+          "inputTokens": 1922,
+          "outputTokens": 169,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.008301
+        },
+        "gemini-2.5-pro": {
+          "inputTokens": 253,
+          "outputTokens": 1154,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.018069
+        }
+      },
+      "lastSessionId": "a9f9c56f-00b3-41c8-bcf1-3bd1f4614cbd"
+    },
+    "/home/steve/文档": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0.374983,
+      "lastAPIDuration": 39829,
+      "lastAPIDurationWithoutRetries": 39822,
+      "lastToolDuration": 33024,
+      "lastDuration": 145850,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 71592,
+      "lastTotalOutputTokens": 1071,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 3346,
+          "outputTokens": 306,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.014627999999999999
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 68246,
+          "outputTokens": 765,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.360355
+        }
+      },
+      "lastSessionId": "7c1b6f66-590a-4db6-b237-e7ad928d96d7"
+    },
+    "/home/steve/文档/tuwunel": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "oauth.rs",
+        "v3.rs",
+        "sender.rs",
+        "router.rs",
+        "upgrade_outlier_pdu.rs"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1766584671657,
+      "lastCost": 32.110106999999985,
+      "lastAPIDuration": 1842542,
+      "lastAPIDurationWithoutRetries": 1842321,
+      "lastToolDuration": 183654,
+      "lastDuration": 4906186,
+      "lastLinesAdded": 22,
+      "lastLinesRemoved": 324,
+      "lastTotalInputTokens": 5641267,
+      "lastTotalOutputTokens": 83726,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 4420744,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 28150,
+          "outputTokens": 34345,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.5996249999999999
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 5613117,
+          "outputTokens": 49381,
+          "cacheReadInputTokens": 4420744,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 31.510481999999985
+        }
+      },
+      "lastSessionId": "ea1032ba-8f6e-4351-bb25-832ace64e005"
+    },
+    "/home/steve/文档/demo/AstrBot_Plugins_Canvas": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "main.py",
+        "metadata.yaml",
+        "requirements.txt",
+        "README.md",
+        "_conf_schema.json"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1766639582480,
+      "lastCost": 16.922070500000004,
+      "lastAPIDuration": 791791,
+      "lastAPIDurationWithoutRetries": 791709,
+      "lastToolDuration": 486,
+      "lastDuration": 3700436,
+      "lastLinesAdded": 285,
+      "lastLinesRemoved": 61,
+      "lastTotalInputTokens": 2961146,
+      "lastTotalOutputTokens": 32967,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 2621299,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 527,
+          "outputTokens": 1743,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.027726
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 2960619,
+          "outputTokens": 31224,
+          "cacheReadInputTokens": 2621299,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 16.894344500000003
+        }
+      },
+      "lastSessionId": "2feb09ea-07f3-4fa7-bd91-78546de28aeb"
+    },
+    "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_adapter": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "event_processor.py",
+        "matrix_adapter.py",
+        "matrix_event.py",
+        "receiver.py",
+        "olm_machine.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769237403378,
+      "lastCost": 9.885268499999999,
+      "lastAPIDuration": 833536,
+      "lastAPIDurationWithoutRetries": 833514,
+      "lastToolDuration": 25969,
+      "lastDuration": 15516600,
+      "lastLinesAdded": 433,
+      "lastLinesRemoved": 12,
+      "lastTotalInputTokens": 1237956,
+      "lastTotalOutputTokens": 37963,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 5943523,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 51369,
+          "outputTokens": 12261,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.33802200000000004
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 1186587,
+          "outputTokens": 25702,
+          "cacheReadInputTokens": 5943523,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 9.547246499999998
+        }
+      },
+      "lastSessionId": "92edbf31-69fe-487e-9349-7dc6ce7d1062"
+    },
+    "/home/steve/文档/ssrhugoT": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "arch_cofig.md",
+        "hello-world.md",
+        "htmlchart.md",
+        "sora2_OC.md",
+        "AdGuardHome.md"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769827221539,
+      "lastCost": 3.2496560000000008,
+      "lastAPIDuration": 360240,
+      "lastAPIDurationWithoutRetries": 360208,
+      "lastToolDuration": 9960,
+      "lastDuration": 10342249,
+      "lastLinesAdded": 88,
+      "lastLinesRemoved": 5,
+      "lastTotalInputTokens": 523723,
+      "lastTotalOutputTokens": 18735,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 595624,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 7273,
+          "outputTokens": 12060,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.202719
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 516450,
+          "outputTokens": 6675,
+          "cacheReadInputTokens": 595624,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 3.0469370000000007
+        }
+      },
+      "lastSessionId": "696d2c64-2026-4566-adc8-f070350d2817",
+      "lastFpsAverage": 0.83,
+      "lastFpsLow1Pct": 25.12
+    },
+    "/home/steve/下载/202440025315-林佳逸/源代码": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0.46913099999999996,
+      "lastAPIDuration": 92537,
+      "lastAPIDurationWithoutRetries": 92529,
+      "lastToolDuration": 1857,
+      "lastDuration": 1737551,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 76545,
+      "lastTotalOutputTokens": 3592,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 27640,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 2417,
+          "outputTokens": 1238,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.025821
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 74128,
+          "outputTokens": 2354,
+          "cacheReadInputTokens": 27640,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.44331
+        }
+      },
+      "lastSessionId": "4782f588-5d3e-4114-89ae-c57f284bc9df"
+    },
+    "/home/steve/下载/element-v1.12.7": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0,
+      "lastAPIDuration": 3497,
+      "lastAPIDurationWithoutRetries": 3496,
+      "lastToolDuration": 0,
+      "lastDuration": 7872,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "c32ddbf5-3a1c-4ae9-a2cc-28afedc83b97"
+    },
+    "/home/steve/文档/matrix/tuwunel": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "v3.rs",
+        "sender.rs",
+        "router.rs",
+        "user_info.rs",
+        "keys.rs"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1768143323922,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 3691,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "fd331278-ebfb-4506-96a9-1a2bb6534742"
+    },
+    "/home/steve/.config": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 1.7381705000000003,
+      "lastAPIDuration": 612692,
+      "lastAPIDurationWithoutRetries": 612669,
+      "lastToolDuration": 14873,
+      "lastDuration": 31873505,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 194283,
+      "lastTotalOutputTokens": 36969,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 384141,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 19565,
+          "outputTokens": 31041,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.5243099999999999
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 174718,
+          "outputTokens": 5928,
+          "cacheReadInputTokens": 384141,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 1.2138605
+        }
+      },
+      "lastSessionId": "1ada8f9a-c00e-44b1-8a1a-bc1e2f3d75d7"
+    },
+    "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_sticker": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "main.py",
+        "sticker_llm.py",
+        "base.py",
+        "sticker_manage.py",
+        "__init__.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1768793960265,
+      "lastCost": 0.927851,
+      "lastAPIDuration": 128902,
+      "lastAPIDurationWithoutRetries": 128890,
+      "lastToolDuration": 7681,
+      "lastDuration": 6573072,
+      "lastLinesAdded": 7,
+      "lastLinesRemoved": 6,
+      "lastTotalInputTokens": 136181,
+      "lastTotalOutputTokens": 5252,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 270828,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 1069,
+          "outputTokens": 1763,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.029652000000000005
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 135112,
+          "outputTokens": 3489,
+          "cacheReadInputTokens": 270828,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.898199
+        }
+      },
+      "lastSessionId": "0492abfb-0f4d-4fa5-9599-13297ce327f0"
+    },
+    "/home/steve/文档/fluffychat": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "custom_reaction_dialog.dart",
+        "chat.dart",
+        "themes.dart",
+        "url_preview.dart",
+        "settings_emotes.dart"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769612626780,
+      "lastCost": 5.2787625,
+      "lastAPIDuration": 1904293,
+      "lastAPIDurationWithoutRetries": 831904,
+      "lastToolDuration": 59893,
+      "lastDuration": 80401590,
+      "lastLinesAdded": 264,
+      "lastLinesRemoved": 69,
+      "lastTotalInputTokens": 750578,
+      "lastTotalOutputTokens": 35845,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 1827235,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.53,
+      "lastFpsLow1Pct": 40.19,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 13845,
+          "outputTokens": 25618,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.42580500000000004
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 736733,
+          "outputTokens": 10227,
+          "cacheReadInputTokens": 1827235,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 4.8529575
+        }
+      },
+      "lastSessionId": "3a6a65dc-5c70-40b0-9aab-20e9c275fe78"
+    },
+    "/home/steve/文档/sparkle": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 2822,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {},
+      "lastSessionId": "53ca29c7-406d-41de-b895-58a0dad10ed7"
+    },
+    "/home/steve/文档/matrix/element-web": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "Stickerpicker.tsx",
+        "MessageActionBar.tsx",
+        "StickersPackEditorDialog.tsx",
+        "StickersRoomSettingsTab.tsx",
+        "ReactionsRow.tsx"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769524069732,
+      "lastCost": 0.48070450000000003,
+      "lastAPIDuration": 135013,
+      "lastAPIDurationWithoutRetries": 135003,
+      "lastToolDuration": 65362,
+      "lastDuration": 341762,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 59432,
+      "lastTotalOutputTokens": 4510,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 202493,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 1861,
+          "outputTokens": 2673,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.045678
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 57571,
+          "outputTokens": 1837,
+          "cacheReadInputTokens": 202493,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.43502650000000004
+        }
+      },
+      "lastSessionId": "178c2fc6-733d-4f08-95fe-a6d19c059632",
+      "lastFpsAverage": 23.49,
+      "lastFpsLow1Pct": 263.11
+    },
+    "/home/steve/文档/yolo/unnamped-project": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "App.tsx",
+        "server.py",
+        "utils.js",
+        "UserService.ts",
+        "main.go"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0.039446999999999996,
+      "lastAPIDuration": 36680,
+      "lastAPIDurationWithoutRetries": 36679,
+      "lastToolDuration": 0,
+      "lastDuration": 174829,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 299,
+      "lastTotalOutputTokens": 2570,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 299,
+          "outputTokens": 2570,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.039446999999999996
+        }
+      },
+      "lastSessionId": "2388408b-baa4-40e6-a022-47e6c37f4324",
+      "exampleFilesGeneratedAt": 1768821519199
+    },
+    "/home/steve/文档/yolo/unnamped-project/master": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "App.tsx",
+        "main.py",
+        "UserController.java",
+        "auth_service.go",
+        "router.js"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1768821064179,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 2.4235785,
+      "lastAPIDuration": 545979,
+      "lastAPIDurationWithoutRetries": 545953,
+      "lastToolDuration": 191339,
+      "lastDuration": 622488,
+      "lastLinesAdded": 367,
+      "lastLinesRemoved": 1,
+      "lastTotalInputTokens": 515902,
+      "lastTotalOutputTokens": 35527,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 73119,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 127384,
+          "outputTokens": 5164,
+          "cacheReadInputTokens": 73119,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.8025795
+        },
+        "gemini-3-flash-preview": {
+          "inputTokens": 190074,
+          "outputTokens": 6738,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.6712920000000001
+        },
+        "gemini-3-pro-preview": {
+          "inputTokens": 198444,
+          "outputTokens": 23625,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.9497070000000001
+        }
+      },
+      "lastSessionId": "f32ebafa-9287-4351-b4c1-839372e220d1"
+    },
+    "/home/steve/文档/yolo/unnamped-project/he": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "App.tsx",
+        "server.py",
+        "auth_service.ts",
+        "user_controller.rb",
+        "main.go"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1768821079632,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0.6250875,
+      "lastAPIDuration": 260654,
+      "lastAPIDurationWithoutRetries": 260648,
+      "lastToolDuration": 854,
+      "lastDuration": 267776,
+      "lastLinesAdded": 291,
+      "lastLinesRemoved": 1,
+      "lastTotalInputTokens": 81125,
+      "lastTotalOutputTokens": 9827,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 76919,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 5206,
+          "outputTokens": 5426,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.097008
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 75919,
+          "outputTokens": 4401,
+          "cacheReadInputTokens": 76919,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.5280794999999999
+        }
+      },
+      "lastSessionId": "e8938220-c1b9-489c-b2db-5c595552716b"
+    },
+    "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_widgets": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      }
+    },
+    "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_pixiv_xp_pusher": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "main.py",
+        "profiler.py",
+        "ai_scorer.py",
+        "pixiv_client.py",
+        "database.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1769228235640,
+      "lastCost": 9.9847245,
+      "lastAPIDuration": 2368785,
+      "lastAPIDurationWithoutRetries": 1154862,
+      "lastToolDuration": 834759,
+      "lastDuration": 22652999,
+      "lastLinesAdded": 1087,
+      "lastLinesRemoved": 218,
+      "lastTotalInputTokens": 1205715,
+      "lastTotalOutputTokens": 54150,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 5974995,
+      "lastTotalWebSearchRequests": 0,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 11999,
+          "outputTokens": 17907,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.30460199999999993
+        },
+        "gemini-claude-opus-4-5-thinking": {
+          "inputTokens": 1117656,
+          "outputTokens": 33252,
+          "cacheReadInputTokens": 5974995,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 9.407077500000007
+        },
+        "gemini-3-flash-preview": {
+          "inputTokens": 76060,
+          "outputTokens": 2991,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.273045
+        }
+      },
+      "lastSessionId": "2a32a4fd-d9b6-49c7-978f-c010c6d85ea9"
+    },
+    "/home/steve/文档/nanobot": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "schema.py",
+        "commands.py",
+        "litellm_provider.py",
+        "loop.py",
+        "manager.py"
+      ],
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "exampleFilesGeneratedAt": 1770448610058,
+      "lastCost": 45.340751099999984,
+      "lastAPIDuration": 35763082,
+      "lastAPIDurationWithoutRetries": 4349337,
+      "lastToolDuration": 6089755,
+      "lastDuration": 62357787,
+      "lastLinesAdded": 2927,
+      "lastLinesRemoved": 45,
+      "lastTotalInputTokens": 14208134,
+      "lastTotalOutputTokens": 175562,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 276397,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 9.56,
+      "lastFpsLow1Pct": 15.82,
+      "lastModelUsage": {
+        "gemini-3-pro-preview": {
+          "inputTokens": 10581917,
+          "outputTokens": 136319,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 33.790535999999996
+        },
+        "gemini-3-flash-preview": {
+          "inputTokens": 3316269,
+          "outputTokens": 32160,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 10.431207000000006
+        },
+        "gemini-claude-sonnet-4-5-thinking": {
+          "inputTokens": 309948,
+          "outputTokens": 7083,
+          "cacheReadInputTokens": 276397,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 1.1190081
+        }
+      },
+      "lastSessionId": "58ab812e-8a44-4f92-9292-2a0dc5366dd9"
+    }
+  },
+  "lastReleaseNotesSeen": "2.1.39",
+  "githubRepoPaths": {
+    "stevessr/bug-v3": [
+      "/home/steve/文档/bug-v3"
+    ],
+    "stevessr/xv6-riscv": [
+      "/home/steve/xv6/xv6-riscv"
+    ],
+    "stevessr/astrbot": [
+      "/home/steve/文档/AstrBot/data/plugins",
+      "/home/steve/文档/AstrBot"
+    ],
+    "stevessr/sub-store": [
+      "/home/steve/文档/Sub-Store",
+      "/home/steve/文档/Sub-Store/backend"
+    ],
+    "stevessr/open-webui": [
+      "/home/steve/文档/open-webui"
+    ],
+    "sub-store-org/sub-store-front-end": [
+      "/home/steve/文档/Sub-Store-Front-End"
+    ],
+    "stevessr/adbkeyboard": [
+      "/home/steve/文档/ADBKeyBoard"
+    ],
+    "zai-org/open-autoglm": [
+      "/home/steve/Open-AutoGLM"
+    ],
+    "mayday-wpf/snow-cli": [
+      "/home/steve/文档/snow-cli"
+    ],
+    "bwwq/idlelife": [
+      "/home/steve/文档/IdleLife"
+    ],
+    "stevessr/tuwunel": [
+      "/home/steve/文档/matrix/tuwunel",
+      "/home/steve/文档/tuwunel"
+    ],
+    "stevessr/astrbot_plugins_canvas": [
+      "/home/steve/文档/demo/AstrBot_Plugins_Canvas"
+    ],
+    "stevessr/astrbot_plugin_matrix_adapter": [
+      "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_adapter"
+    ],
+    "stevessr/ssrhugot": [
+      "/home/steve/文档/ssrhugoT"
+    ],
+    "stevessr/bot": [
+      "/home/steve/文档/test/bot"
+    ],
+    "stevessr/astrbot_plugin_matrix_sticker": [
+      "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_sticker"
+    ],
+    "stevessr/fluffychat": [
+      "/home/steve/文档/fluffychat"
+    ],
+    "inkcr0w/sparkle": [
+      "/home/steve/文档/sparkle"
+    ],
+    "element-hq/element-web": [
+      "/home/steve/文档/matrix/element-web"
+    ],
+    "stevessr/astrbot_plugin_matrix_widgets": [
+      "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_matrix_widgets"
+    ],
+    "stevessr/astrbot_plugin_pixiv_xp_pusher": [
+      "/home/steve/文档/AstrBot/data/plugins/astrbot_plugin_pixiv_xp_pusher"
+    ],
+    "hkuds/nanobot": [
+      "/home/steve/文档/nanobot"
+    ]
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1764985562398
+  },
+  "hasUsedBackslashReturn": true,
+  "mcpServers": {
+    "auggie-mcp": {
+      "type": "stdio",
+      "command": "auggie",
+      "args": [
+        "--mcp"
+      ]
+    },
+    "deepwiki": {
+      "type": "http",
+      "url": "https://mcp.deepwiki.com/mcp"
+    },
+    "open-webSearch": {
+      "type": "http",
+      "url": "https://mcp.api-inference.modelscope.net/0feb664a8b9b4b/mcp"
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  },
+  "bypassPermissionsModeAccepted": true,
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "statusLine": {
+    "type": "command",
+    "command": "ccline",
+    "padding": 0
+  },
+  "thinkingMigrationComplete": true,
+  "autoUpdatesProtectedForNative": true,
+  "lastPlanModeUse": 1767408601174,
+  "lspRecommendationIgnoredCount": 1,
+  "hasCompletedClaudeInChromeOnboarding": true,
+  "claudeInChromeDefaultEnabled": false,
+  "opusProMigrationComplete": true,
+  "cachedChromeExtensionInstalled": false,
+  "skillUsage": {
+    "init": {
+      "usageCount": 3,
+      "lastUsedAt": 1769936547847
+    },
+    "api": {
+      "usageCount": 1,
+      "lastUsedAt": 1769734402097
+    },
+    "refactor": {
+      "usageCount": 1,
+      "lastUsedAt": 1769734484351
+    },
+    "research": {
+      "usageCount": 2,
+      "lastUsedAt": 1769939277606
+    }
+  },
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1770805123971
+  },
+  "showSpinnerTree": false
+}
