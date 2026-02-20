@@ -1,0 +1,84 @@
+# C++ 标准库 <climits>
+
+​`<climits>`​ 是 C++ 标准库中的一个头文件，提供了与整数类型相关的限制和特性。它定义了一组常量，描述了各种整数类型（如 `char`​、`int`​、`long`​ 等）的最小值、最大值和其他相关属性。这些常量来自 C 标准库的 `<limits.h>`​ 头文件。
+
+### `<climits>`​ 提供的常量
+
+这些常量描述了不同整数类型在特定平台上的特性。以下是一些常用的常量：
+
+1. **字符类型**
+
+* ​`CHAR_BIT`​：`char`​ 类型的位数（通常为 8）。
+* ​`CHAR_MIN`​：`char`​ 类型的最小值。
+* ​`CHAR_MAX`​：`char`​ 类型的最大值。
+* ​`SCHAR_MIN`​：有符号 `char`​ 类型的最小值。
+* ​`SCHAR_MAX`​：有符号 `char`​ 类型的最大值。
+* ​`UCHAR_MAX`​：无符号 `char`​ 类型的最大值。
+
+2. **短整型**
+
+* ​`SHRT_MIN`​：`short`​ 类型的最小值。
+* ​`SHRT_MAX`​：`short`​ 类型的最大值。
+* ​`USHRT_MAX`​：无符号 `short`​ 类型的最大值。
+
+3. **整型**
+
+* ​`INT_MIN`​：`int`​ 类型的最小值。
+* ​`INT_MAX`​：`int`​ 类型的最大值。
+* ​`UINT_MAX`​：无符号 `int`​ 类型的最大值。
+
+4. **长整型**
+
+* ​`LONG_MIN`​：`long`​ 类型的最小值。
+* ​`LONG_MAX`​：`long`​ 类型的最大值。
+* ​`ULONG_MAX`​：无符号 `long`​ 类型的最大值。
+
+5. **长长整型**
+
+* ​`LLONG_MIN`​：`long long`​ 类型的最小值。
+* ​`LLONG_MAX`​：`long long`​ 类型的最大值。
+* ​`ULLONG_MAX`​：无符号 `long long`​ 类型的最大值。
+
+## 实例
+
+下面是一个使用 `<climits>`​ 头文件中定义的常量的示例程序：
+
+## 实例
+
+#include <iostream>  
+#include <climits>
+
+int main() {  
+    // 打印整型的最大值和最小值  
+    std::cout << "int 的最大值是：" << INT_MAX << std::endl;  
+    std::cout << "int 的最小值是：" << INT_MIN << std::endl;
+
+    // 打印长整型的最大值和最小值  
+    std::cout << "long 的最大值是：" << LONG_MAX << std::endl;  
+    std::cout << "long 的最小值是：" << LONG_MIN << std::endl;
+
+    // 打印无符号长整型的最大值  
+    std::cout << "unsigned long 的最大值是：" << ULONG_MAX << std::endl;
+
+    // 打印字符类型的最大值和最小值  
+    std::cout << "char 的最大值是：" << CHAR_MAX << std::endl;  
+    std::cout << "char 的最小值是：" << CHAR_MIN << std::endl;
+
+    return 0;  
+}
+
+### 输出结果
+
+当你运行上述程序时，输出结果将类似于以下内容（具体值可能因编译器和平台而异）：
+
+```
+int 的最大值是：2147483647
+int 的最小值是：-2147483648
+long 的最大值是：9223372036854775807
+long 的最小值是：-9223372036854775808
+unsigned long 的最大值是：18446744073709551615
+char 的最大值是：127
+char 的最小值是：-128
+```
+
+​`<climits>`​ 头文件中的常量提供了关于整数类型表示的有用信息，使程序员能够编写与平台无关的代码，确保程序在不同平台上具有一致的行为。了解这些常量的含义和使用方法，对于需要高精度和范围控制的应用程序尤为重要。如果你有特定的使用需求或问题，可以进一步讨论。
