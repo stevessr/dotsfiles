@@ -1,0 +1,3 @@
+# 忽略 OBS 备份文件
+.config/obs-studio/**/*.bak
+.config/obs-studio/basic/scenes/*.bak
