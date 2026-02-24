@@ -39,7 +39,7 @@
     "default-permission-mode-config": 331,
     "agent-flag": 331
   },
-  "promptQueueUseCount": 1003,
+  "promptQueueUseCount": 1004,
   "showExpandedTodos": true,
   "autoConnectIde": true,
   "cachedStatsigGates": {
@@ -2607,7 +2607,7 @@
   },
   "clientDataCache": {
     "data": null,
-    "timestamp": 1771907983453
+    "timestamp": 1771908479405
   },
   "showSpinnerTree": false,
   "effortCalloutDismissed": true,
