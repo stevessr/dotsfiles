@@ -11,6 +11,7 @@
   "widgetBackgroundColor": "sth",
   "widgetColorMode": "default",
   "controlCenterTileColorMode": "primary",
+  "buttonColorMode": "primary",
   "cornerRadius": 32,
   "niriLayoutGapsOverride": -1,
   "niriLayoutRadiusOverride": -1,
@@ -29,6 +30,12 @@
   "nightModeEnabled": false,
   "animationSpeed": 2,
   "customAnimationDuration": 500,
+  "syncComponentAnimationSpeeds": true,
+  "popoutAnimationSpeed": 1,
+  "popoutCustomAnimationDuration": 150,
+  "modalAnimationSpeed": 1,
+  "modalCustomAnimationDuration": 150,
+  "enableRippleEffects": true,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
@@ -134,31 +141,43 @@
   "showWorkspacePadding": false,
   "workspaceScrolling": false,
   "showWorkspaceApps": true,
+  "workspaceDragReorder": true,
   "maxWorkspaceIcons": 3,
   "workspaceAppIconSizeOffset": 0,
   "groupWorkspaceApps": true,
   "workspaceFollowFocus": false,
-  "showOccupiedWorkspacesOnly": false,
+  "showOccupiedWorkspacesOnly": true,
   "reverseScrolling": false,
   "dwlShowAllTags": false,
   "workspaceColorMode": "default",
   "workspaceOccupiedColorMode": "none",
   "workspaceUnfocusedColorMode": "default",
   "workspaceUrgentColorMode": "default",
-  "workspaceFocusedBorderEnabled": false,
+  "workspaceFocusedBorderEnabled": true,
   "workspaceFocusedBorderColor": "primary",
   "workspaceFocusedBorderThickness": 2,
   "workspaceNameIcons": {},
   "waveProgressEnabled": true,
   "scrollTitleEnabled": true,
-  "audioVisualizerEnabled": true,
+  "audioVisualizerEnabled": false,
   "audioScrollMode": "volume",
+  "audioWheelScrollAmount": 5,
   "clockCompactMode": false,
   "focusedWindowCompactMode": false,
   "runningAppsCompactMode": true,
+  "barMaxVisibleApps": 0,
+  "barMaxVisibleRunningApps": 0,
+  "barShowOverflowBadge": true,
+  "appsDockHideIndicators": false,
+  "appsDockColorizeActive": false,
+  "appsDockActiveColorMode": "primary",
+  "appsDockEnlargeOnHover": false,
+  "appsDockEnlargePercentage": 125,
+  "appsDockIconSizePercentage": 100,
   "keyboardLayoutNameCompactMode": true,
   "runningAppsCurrentWorkspace": false,
   "runningAppsGroupByApp": true,
+  "runningAppsCurrentMonitor": false,
   "appIdSubstitutions": [
     {
       "pattern": "Spotify",
@@ -207,6 +226,7 @@
   "dankLauncherV2BorderThickness": 2,
   "dankLauncherV2BorderColor": "primary",
   "dankLauncherV2ShowFooter": true,
+  "dankLauncherV2UnloadOnClose": true,
   "useAutoLocation": true,
   "weatherEnabled": false,
   "networkPreference": "wifi",
@@ -299,8 +319,8 @@
   "matugenTemplateVscode": true,
   "matugenTemplateEmacs": true,
   "showDock": true,
-  "dockAutoHide": true,
-  "dockSmartAutoHide": false,
+  "dockAutoHide": false,
+  "dockSmartAutoHide": true,
   "dockGroupByApp": true,
   "dockOpenOnOverview": true,
   "dockPosition": 1,
@@ -314,10 +334,10 @@
   "dockBorderOpacity": 1,
   "dockBorderThickness": 1,
   "dockIsolateDisplays": true,
-  "dockLauncherEnabled": false,
-  "dockLauncherLogoMode": "apps",
+  "dockLauncherEnabled": true,
+  "dockLauncherLogoMode": "compositor",
   "dockLauncherLogoCustomPath": "",
-  "dockLauncherLogoColorOverride": "",
+  "dockLauncherLogoColorOverride": "primary",
   "dockLauncherLogoSizeOffset": 0,
   "dockLauncherLogoBrightness": 0.5,
   "dockLauncherLogoContrast": 1,
@@ -325,6 +345,8 @@
   "dockMaxVisibleRunningApps": 0,
   "dockShowOverflowBadge": true,
   "notificationOverlayEnabled": false,
+  "notificationPopupShadowEnabled": true,
+  "notificationPopupPrivacyMode": false,
   "modalDarkenBackground": true,
   "lockScreenShowPowerActions": true,
   "lockScreenShowSystemIcons": true,
@@ -334,6 +356,7 @@
   "lockScreenShowPasswordField": true,
   "lockScreenShowMediaPlayer": true,
   "lockScreenPowerOffMonitorsOnLock": false,
+  "lockAtStartup": false,
   "enableFprint": false,
   "maxFprintTries": 15,
   "lockScreenActiveMonitor": "HDMI-A-1",
@@ -345,16 +368,20 @@
   "notificationTimeoutCritical": 0,
   "notificationCompactMode": false,
   "notificationPopupPosition": 0,
+  "notificationAnimationSpeed": 1,
+  "notificationCustomAnimationDuration": 400,
   "notificationHistoryEnabled": true,
   "notificationHistoryMaxCount": 50,
   "notificationHistoryMaxAgeDays": 7,
   "notificationHistorySaveLow": true,
   "notificationHistorySaveNormal": true,
   "notificationHistorySaveCritical": true,
+  "notificationRules": [],
   "osdAlwaysShowValue": false,
-  "osdPosition": 4,
+  "osdPosition": 5,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
+  "osdMediaPlaybackEnabled": true,
   "osdBrightnessEnabled": true,
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
@@ -369,7 +396,8 @@
     "poweroff",
     "lock",
     "suspend",
-    "restart"
+    "restart",
+    "hibernate"
   ],
   "powerMenuDefaultAction": "logout",
   "powerMenuGridLayout": false,
@@ -394,7 +422,8 @@
       "vrrOnDemand": true
     },
     "Tianma Microelectronics Ltd. 0x2031 Unknown": {
-      "vrrOnDemand": true
+      "vrrOnDemand": true,
+      "layout": null
     },
     "IPS, Inc. (Intellectual Property Solutions, Inc.) HDMI Unknown": {
       "vrrOnDemand": true
@@ -407,6 +436,26 @@
     }
   },
   "hyprlandOutputSettings": {},
+  "displayProfiles": {
+    "niri": {
+      "profile_1771684135107_essvqg": {
+        "id": "profile_1771684135107_essvqg",
+        "name": "X",
+        "outputSet": [
+          "Invalid Vendor Codename - RTK DP Unknown",
+          "Tianma Microelectronics Ltd. 0x2031 Unknown"
+        ],
+        "createdAt": 1771684135107,
+        "updatedAt": 1771684135107
+      }
+    }
+  },
+  "activeDisplayProfile": {
+    "niri": "profile_1771684135107_essvqg"
+  },
+  "displayProfileAutoSelect": false,
+  "displayShowDisconnected": false,
+  "displaySnapToEdge": true,
   "barConfigs": [
     {
       "id": "default",
@@ -624,13 +673,101 @@
   "systemMonitorVariants": [],
   "desktopWidgetPositions": {},
   "desktopWidgetGridSettings": {},
-  "desktopWidgetInstances": [],
+  "desktopWidgetInstances": [
+    {
+      "id": "dw_1771683936193_opws2fjdl",
+      "widgetType": "systemMonitor",
+      "name": "系统监视器",
+      "enabled": false,
+      "config": {
+        "showHeader": true,
+        "transparency": 0.8,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showCpu": true,
+        "showCpuGraph": true,
+        "showCpuTemp": true,
+        "showGpuTemp": false,
+        "gpuPciId": "",
+        "showMemory": true,
+        "showMemoryGraph": true,
+        "showNetwork": true,
+        "showNetworkGraph": true,
+        "showDisk": true,
+        "showTopProcesses": false,
+        "topProcessCount": 3,
+        "topProcessSortBy": "cpu",
+        "layoutMode": "auto",
+        "graphInterval": 60,
+        "displayPreferences": [
+          "all"
+        ],
+        "showOnOverlay": false,
+        "showOnOverviewOnly": false,
+        "clickThrough": true,
+        "syncPositionAcrossScreens": false
+      },
+      "positions": {
+        "0x2031": {
+          "width": 320,
+          "height": 480,
+          "x": 693.5,
+          "y": 293.5
+        },
+        "DP": {
+          "width": 320,
+          "height": 480,
+          "x": 800,
+          "y": 360
+        },
+        "_synced": {
+          "x": 0.4062683069712947,
+          "y": 0.27507029053420806,
+          "width": 320,
+          "height": 480
+        }
+      }
+    },
+    {
+      "id": "dw_1771683994826_s08c560ia",
+      "widgetType": "desktopClock",
+      "name": "桌面时钟",
+      "enabled": false,
+      "config": {
+        "style": "analog",
+        "transparency": 0.8,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showDate": true,
+        "showAnalogNumbers": false,
+        "showAnalogSeconds": true,
+        "displayPreferences": [
+          "all"
+        ]
+      },
+      "positions": {
+        "0x2031": {
+          "width": 200,
+          "height": 200,
+          "x": 753.5,
+          "y": 433.5
+        },
+        "DP": {
+          "width": 200,
+          "height": 200,
+          "x": 1450,
+          "y": 927
+        }
+      }
+    }
+  ],
   "desktopWidgetGroups": [],
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
     }
   },
+  "clipboardEnterToPaste": false,
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
   "configVersion": 5

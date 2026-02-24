@@ -3,6 +3,7 @@
 spawn-at-startup "fcitx5"
 spawn-at-startup "/usr/lib/pam_kwallet_init"
 spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+spawn-at-startup "/usr/bin/sparkle"
 //  spawn-at-startup "dbus-update-activation-environment --all"
 //  spawn-at-startup "sh" "-c" "sleep 1 && dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
 //  spawn-at-startup "easyeffects --gapplication-service"
@@ -20,7 +21,7 @@ spawn-at-startup "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1"
 spawn-at-startup "xwayland-satellite"
 // Or, if you built it by hand:
 // spawn-at-startup "~/path/to/code/target/release/xwayland-satellite"
-
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
 // Starts DankShell
 //  spawn-at-startup "qs" "-c" "dms"
 //  spawn-at-startup "dms" "run"

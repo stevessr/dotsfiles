@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 536870914,
+        "prev_ver": 536870916,
         "name": "Desktop Audio",
         "uuid": "a2254fb1-b95d-4626-82e0-992119435bfb",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536870914,
+        "prev_ver": 536870916,
         "name": "Mic/Aux",
         "uuid": "dbdd1a04-697e-43d2-a987-85d89cdb4e72",
         "id": "pulse_input_capture",
@@ -73,7 +73,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "Scene",
             "uuid": "d9535ef8-1160-420a-b0b0-1fcd0d0f3936",
             "id": "scene",
@@ -333,7 +333,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "视频采集设备 (PipeWire) (测试)",
             "uuid": "823777b9-4b92-475a-bd15-d137114c5a2a",
             "id": "pipewire-camera-source",
@@ -357,7 +357,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "红外相机",
             "uuid": "6b32e3a4-de14-4d85-babf-9cab16a57271",
             "id": "v4l2_input",
@@ -385,7 +385,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "屏幕采集(PipeWire)",
             "uuid": "26aa4543-f7c3-4a1c-8e48-ce85491304fb",
             "id": "pipewire-screen-capture-source",
@@ -411,7 +411,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "附属屏幕",
             "uuid": "6bff3c45-7e1d-499f-a280-841ab38187c0",
             "id": "pipewire-screen-capture-source",
@@ -446,12 +446,9 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -8,
+    "scaling_level": -10,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
-    "virtual-camera": {
-        "type2": 3
-    },
     "modules": {
         "scripts-tool": [],
         "output-timer": {
